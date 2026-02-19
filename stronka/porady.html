@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porady Wędkarskie - Wędkarski Świat</title>
+    <style>
+        :root { --primary-color: #2c5e3b; --secondary-color: #4a90e2; --text-color: #333; --bg-color: #f4f7f6; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: var(--bg-color); color: var(--text-color); line-height: 1.6; }
+        
+        header { background-color: var(--primary-color); color: white; padding: 1.5rem 5%; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 15px; }
+        .logo { font-size: 2.2rem; font-weight: bold; text-decoration: none; color: white; display: flex; align-items: center; justify-content: center; gap: 10px; }
+        nav ul { list-style: none; display: flex; gap: 25px; flex-wrap: wrap; justify-content: center; }
+        nav a { color: white; text-decoration: none; font-weight: 500; font-size: 1.1rem; transition: color 0.3s; }
+        nav a:hover { color: #a8d5ba; }
+        
+        .page-header { background-color: #3a754b; color: white; padding: 40px 20px; text-align: center; }
+        .container { max-width: 800px; margin: 40px auto; padding: 0 20px; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .article-content h2 { color: var(--primary-color); margin-top: 20px; margin-bottom: 10px; }
+        .article-content p { margin-bottom: 15px; }
+        .article-content img { width: 100%; height: auto; border-radius: 8px; margin: 20px 0; }
+        footer { background-color: #222; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">🐟 Wędkarski Świat</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="porady.html">Porady</a></li>
+                <li><a href="sprzet.html">Sprzęt</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>Baza wiedzy wędkarskiej</h1>
+    </div>
+
+    <div class="container article-content">
+        <h2>Węzły wędkarskie, które musisz znać</h2>
+        <p>Wiązanie haczyka czy krętlika to podstawa. Dobry węzeł zapewnia, że nie stracimy życiowej ryby w najważniejszym momencie holu. Najpopularniejszym węzłem wśród wędkarzy jest tzw. węzeł palomar.</p>
+        
+        <img src="obrazki/obrazek5.jpg" alt="Sprzęt wędkarski z bliska">
+        
+        <h2>Jak czytać wodę?</h2>
+        <p>Umiejętność "czytania wody" pozwala wytypować miejsca, w których najprawdopodobniej przebywają ryby. Zwracaj uwagę na: powalone drzewa, uskoki dna, grążele czy miejsca, w których prąd wody ulega spowolnieniu.</p>
+        
+        <h2>Kalendarz brań - czy warto w niego wierzyć?</h2>
+        <p>Wielu wędkarzy sugeruje się fazami księżyca i ciśnieniem atmosferycznym. Choć ryby często reagują na zmiany pogody, nic nie zastąpi czasu spędzonego nad wodą i obserwacji natury.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Wędkarski Świat. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+</body>
+</html>

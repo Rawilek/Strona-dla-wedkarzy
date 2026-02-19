@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Wędkarski Świat</title>
+    <style>
+        :root { --primary-color: #2c5e3b; --secondary-color: #4a90e2; --text-color: #333; --bg-color: #f4f7f6; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: var(--bg-color); color: var(--text-color); line-height: 1.6; display: flex; flex-direction: column; min-height: 100vh; }
+        
+        header { background-color: var(--primary-color); color: white; padding: 1.5rem 5%; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 15px; }
+        .logo { font-size: 2.2rem; font-weight: bold; text-decoration: none; color: white; display: flex; align-items: center; justify-content: center; gap: 10px; }
+        nav ul { list-style: none; display: flex; gap: 25px; flex-wrap: wrap; justify-content: center; }
+        nav a { color: white; text-decoration: none; font-weight: 500; font-size: 1.1rem; transition: color 0.3s; }
+        nav a:hover { color: #a8d5ba; }
+        
+        .page-header { background-color: #3a754b; color: white; padding: 40px 20px; text-align: center; }
+        
+        .contact-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        .contact-container h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        .contact-info {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .contact-info a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-top: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        footer { background-color: #222; color: white; text-align: center; padding: 20px; margin-top: auto; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">🐟 Wędkarski Świat</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="porady.html">Porady</a></li>
+                <li><a href="sprzet.html">Sprzęt</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>Kontakt</h1>
+    </div>
+
+    <div class="contact-container">
+        <h2>Szymon Zakrzewicz</h2>
+        <p class="contact-info">Nr albumu: <strong>123804</strong></p>
+        <p class="contact-info">E-mail: <a href="mailto:123804@student.san.edu.pl">123804@student.san.edu.pl</a></p>
+        <div class="badge">Strona na zaliczenie przedmiotu</div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Wędkarski Świat. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+</body>
+</html>
